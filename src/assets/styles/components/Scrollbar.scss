@@ -4,7 +4,25 @@
   right: 15px;
 }
 .scrollbar ul li {
-  padding: 7px 0;
-  color: #E2E1D3;
-  font-size: 25px;
+  margin: 20px 10px;
+  height: 20px;
+  width: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.1s;
+}
+.scrollbar ul li:hover {
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.scrollbar ul li:hover .scrollbar-point {
+  background-color: white;
+}
+.scrollbar-point {
+  height: 7px;
+  width: 7px;
+  background-color: #E2E1D3;
+  border-radius: 50%;
 }
