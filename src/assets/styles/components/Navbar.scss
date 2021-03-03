@@ -16,8 +16,29 @@
   font-weight: 700;
   text-decoration: none;
   color: #E2E1D3;
-  font-size: 20px;
+  font-size: 18px;
+  position: relative;
+}
+::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  top: 115%;
+  left: 0;
+  background: white;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: center;
 }
 .navbar li a:hover {
   color: white;
+}
+.navbar li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: center;
+}
+.home-description {
+  color: #E2E1D3;
+  padding-top: 20px;
 }
