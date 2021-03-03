@@ -1,7 +1,8 @@
 .scrollbar {
-  position: absolute;
+  position: fixed;
   top: 35%;
   right: 15px;
+  z-index: 1;
 }
 .scrollbar ul li {
   margin: 20px 10px;
@@ -21,8 +22,8 @@
   background-color: white;
 }
 .scrollbar-point {
-  height: 7px;
-  width: 7px;
+  height: 8px;
+  width: 8px;
   background-color: #E2E1D3;
   border-radius: 50%;
 }

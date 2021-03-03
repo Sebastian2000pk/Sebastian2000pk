@@ -1,14 +1,12 @@
 import React from 'react';
 
-import Scrollbar from './Scrollbar';
-
 import '../assets/styles/components/Home.scss';
 
 import background from '../assets/static/background-home.jpg';
 
 
 const Home = ({children}) => (
-  <div className="home" style={{ backgroundImage: `url(${background})` }}>
+  <div className="home" style={{ backgroundImage: `url(${background})` }} id="home">
     {children}
     <div className="home-text">
       <p className="title-home">Web Developer</p>
@@ -19,9 +17,6 @@ const Home = ({children}) => (
         20 años de edad <br/>
       </p>
     </div>
-
-    <Scrollbar />
-
   </div>
 );
 
