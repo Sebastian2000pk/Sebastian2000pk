@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Scrollbar from './Scrollbar';
+
 import '../assets/styles/components/Home.scss';
 
 import background from '../assets/static/background-home.jpg';
@@ -17,6 +19,9 @@ const Home = ({children}) => (
         20 años de edad <br/>
       </p>
     </div>
+
+    <Scrollbar />
+
   </div>
 );
 
