@@ -1,0 +1,6 @@
+.navbar{display:flex;align-items:center;height:98px;width:100vw}.navbar ul{margin-left:auto}.navbar li{display:inline;margin-right:70px}.navbar li a{font-family:Arial, Helvetica, sans-serif;font-weight:700;text-decoration:none;color:#E2E1D3;font-size:20px}.navbar li a:hover{color:white}
+
+.home{height:97vh;width:100vw;border-bottom-right-radius:200px;background-repeat:no-repeat;background-size:cover;background-position-y:center}
+
+*{margin:0;box-sizing:border-box;font-family:Arial, Helvetica, sans-serif}
+
