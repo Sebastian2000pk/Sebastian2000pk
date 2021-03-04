@@ -1,8 +1,24 @@
 .home {
   height: 97vh;
-  width: 100vw;
   border-bottom-right-radius: 200px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
+  position: relative;
+  width: 100%;
+}
+.home-text {
+  margin-left: 100px;
+  height: 80vh;
+  padding-top: 10vh;
+}
+.title-home {
+  color: #E2E1D3;
+  font-size: 66px;
+  font-weight: 700;
+}
+.home-name {
+  color: #4CC9F0;
+  font-weight: 700;
+  font-size: 37px;
 }
