@@ -1,0 +1,21 @@
+.skill-card {
+  background-color: white;
+  height: 15rem;
+  width: 13rem;
+  display: inline-block;
+  margin: 15px;
+  padding: 20px 0;
+}
+.skill-name {
+  color: #4CC9F0;
+  font-family: 'Gill Sans MT', 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.skill-card__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}

@@ -14,16 +14,25 @@
   align-items: center;
   transition: 0.1s;
 }
-.scrollbar ul li:hover {
+.white ul li:hover {
   border: 2px solid white;
   border-radius: 50%;
 }
-.scrollbar ul li:hover .scrollbar-point {
+.purple ul li:hover {
+  border: 2px solid #480CA8;
+  border-radius: 50%;
+}
+.white ul li:hover .scrollbar-point {
   background-color: white;
 }
 .scrollbar-point {
   height: 8px;
   width: 8px;
-  background-color: #E2E1D3;
   border-radius: 50%;
+}
+.white .scrollbar-point {
+  background-color: #E2E1D3;
+}
+.purple .scrollbar-point {
+  background-color: #480CA8;
 }

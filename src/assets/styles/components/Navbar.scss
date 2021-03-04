@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   height: 98px;
-  width: 100vw;
+  width: 100%;
 }
 .navbar ul {
   margin-left: auto;
@@ -19,7 +19,7 @@
   font-size: 18px;
   position: relative;
 }
-:after {
+.navbar li a::after {
   position: absolute;
   content: "";
   width: 100%;
@@ -42,3 +42,4 @@
   color: #E2E1D3;
   padding-top: 20px;
 }
+

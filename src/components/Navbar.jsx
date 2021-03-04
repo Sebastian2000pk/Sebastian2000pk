@@ -4,8 +4,7 @@ import '../assets/styles/components/Navbar.scss';
 
 
 const Navbar = () => (
-
-  <div className="navbar">
+  <div className='navbar'>
     <ul>
       <li><a href="#home">Home</a></li>
       <li><a href="#skills">Skills</a></li>
@@ -13,8 +12,6 @@ const Navbar = () => (
       <li><a href="#contact">Contact</a></li>
     </ul>
   </div>
-
-
 );
 
 
