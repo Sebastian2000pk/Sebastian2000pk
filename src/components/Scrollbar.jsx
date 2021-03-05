@@ -22,8 +22,8 @@ const Scrollbar = () => {
       <ul>
         <a href="#home"><li><div className="scrollbar-point"></div></li></a>
         <a href="#skills"><li><div className="scrollbar-point"></div></li></a>
-        <a href="#home"><li><div className="scrollbar-point"></div></li></a>
-        <a href="#home"><li><div className="scrollbar-point"></div></li></a>
+        <a href="#projects"><li><div className="scrollbar-point"></div></li></a>
+        <a href="#contact"><li><div className="scrollbar-point"></div></li></a>
       </ul>
     </nav>
   )

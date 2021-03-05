@@ -1,0 +1,38 @@
+.contact {
+  margin-top: 20rem;
+  // height: 10rem;
+  overflow-x: hidden;
+}
+.contact > div {
+  background-color: #480CA8;
+  border-top-left-radius: 60% 100px;
+  border-top-right-radius: 60% 100px;
+  width: 120%;
+  margin-left: -10%;
+}
+.contact-container {
+  padding: 2rem 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.contact-title {
+  font-weight: 700;
+  color: #F72585;
+  border-bottom: 1px solid #E2E1D3;
+  padding-bottom: 5px;
+}
+.contact-description {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding-top: 15px;
+}
+.container__contact {
+  grid-column: 1/2;
+}
+.container__residence {
+  grid-column: 2/3;
+}
+.sub-container {
+  padding: 50px 100px 10px 100px;
+}

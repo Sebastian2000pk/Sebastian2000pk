@@ -1,0 +1,66 @@
+.projects {
+  margin-top: 90px;
+}
+.title-projects {
+  font-family: 'Gill Sans MT', 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  color: #3A0CA3;
+  margin-left: 110px;
+  margin-top: 90px;
+}
+.container-projects {
+  margin-top: 30px;
+  padding: 70px 100px;
+  position: relative;
+}
+.back-decoration {
+  height: 240px;
+  width: 70%;
+  background: linear-gradient(#4CC9F0, #4361EE);
+  position: absolute;
+  top: 20px;
+  left: 13%;
+  right: 13%;
+  border-radius: 20px;
+  z-index: -1;
+}
+.circle-decoration {
+  position: absolute;
+  top: 60%;
+  left: -20%;
+  z-index: -1;
+}
+.circle-decoration__one {
+  height: 430px;
+  width: 430px;
+  border: 2px solid #3F37C9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle-decoration__two {
+  height: 400px;
+  width: 400px;
+  border: 2px solid #3F37C9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle-decoration__three {
+  height: 300px;
+  width: 300px;
+  border: 45px solid #3F37C9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circle-decoration__four {
+  height: 130px;
+  width: 130px;
+  border: 2px solid #3F37C9;
+  border-radius: 50%;
+}
