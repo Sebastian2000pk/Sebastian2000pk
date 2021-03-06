@@ -5,7 +5,7 @@ import '../assets/styles/components/Navbar.scss';
 
 const Navbar = () => {
 
-  function HamburguerClick() {
+  function HamburguerClick(close = false) {
     const navbar = document.getElementById('navbar');
     const hamburguer = document.getElementById("hamburguer-button");
     if (!hamburguer.checked) {
@@ -14,6 +14,15 @@ const Navbar = () => {
      else if(window.scrollY < height) {
       navbar.classList.remove('nav-purple');
      }
+    if (close == true & window.scrollY < height) {
+      navbar.classList.remove('nav-purple');
+    }
+  }
+
+  function Close() {
+    const hamburguer = document.getElementById("hamburguer-button");
+    hamburguer.checked = false;
+    HamburguerClick(true);
   }
 
   const [ navbar, setNavbar ] = useState(false);
@@ -28,6 +37,7 @@ const Navbar = () => {
     }
   };
 
+
   window.addEventListener('scroll', changeColor);
 
   return (
@@ -36,10 +46,10 @@ const Navbar = () => {
       <label htmlFor="hamburguer-button" className="hamburguer-button" onClick={HamburguerClick}></label>
       <nav>
         <ul>
-          <li><a href="#home" >Home</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#home" onClick={Close}>Home</a></li>
+          <li><a href="#skills" onClick={Close}>Skills</a></li>
+          <li><a href="#projects" onClick={Close}>Projects</a></li>
+          <li><a href="#contact" onClick={Close}>Contact</a></li>
         </ul>
       </nav>
     </div>
