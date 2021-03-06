@@ -24,10 +24,12 @@ const Projects = () => {
           </div>
         </div>
 
-        <ProjetCard />
-        <ProjetCard />
-        <ProjetCard />
-        <ProjetCard />
+        <div className="carousel-projets">
+          <ProjetCard />
+          <ProjetCard />
+          <ProjetCard />
+          <ProjetCard />
+        </div>
       </div>
     </div>
 

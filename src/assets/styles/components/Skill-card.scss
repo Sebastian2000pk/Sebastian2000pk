@@ -20,3 +20,16 @@
   justify-content: space-between;
   height: 100%;
 }
+
+@media (max-width: 765px) {
+  .skill-card {
+    height: 10rem;
+    width: 7rem;
+    margin: 10px;
+    padding: 15px 10px;
+    border-radius: 15px;
+  }
+  .skill-card__container img {
+    max-width: 100%;
+  }
+}

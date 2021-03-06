@@ -64,3 +64,21 @@
   border: 2px solid #3F37C9;
   border-radius: 50%;
 }
+
+@media (max-width: 765px) {
+  .title-projects {
+    font-size: 55px;
+    margin-left: 20px;
+    padding-top: 90px;
+  }
+  .container-projects {
+    margin-top: 20px;
+    padding: 70px 30px;
+    position: relative;
+    overflow-x: hiden;
+  }
+  .carousel-projets {
+    // display: flex;
+    text-align: center;
+  }
+}

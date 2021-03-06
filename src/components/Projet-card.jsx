@@ -3,6 +3,7 @@ import React from 'react';
 import '../assets/styles/components/Projet-card.scss';
 
 import iconPollo from '../assets/static/icon-pollo.png';
+import iconArrow from '../assets/static/arrow.png';
 
 
 const ProjetCard = () => (

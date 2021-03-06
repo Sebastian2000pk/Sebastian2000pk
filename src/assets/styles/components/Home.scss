@@ -22,3 +22,21 @@
   font-weight: 700;
   font-size: 37px;
 }
+
+@media (max-width: 765px) {
+  .home-text {
+    margin-left: 10px;
+    height: 80vh;
+    padding-top: 10vh;
+  }
+  .title-home {
+    color: #E2E1D3;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .home-name {
+    color: #4CC9F0;
+    font-weight: 700;
+    font-size: 30px;
+  }
+}

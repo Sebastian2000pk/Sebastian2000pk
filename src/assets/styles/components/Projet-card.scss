@@ -32,3 +32,28 @@
 .image-projet__icon {
   max-width: 90%;
 }
+
+@media (max-width: 765px) {
+  .project-card {
+    background-color: white;
+    height: 280px;
+    width: 192px;
+    display: inline-block;
+    margin: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.527);
+    padding: 30px 20px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .container-project__text {
+    margin-top: 8px;
+  }
+  .project-card__title {
+    font-size: 14px;
+  }
+  .project-card__description {
+    margin-top: 8px;
+    font-size: 11px;
+  }
+}

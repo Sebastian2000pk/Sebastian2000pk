@@ -13,4 +13,15 @@
 }
 .container-skills {
   padding: 50px 150px 90px 120px;
-} 
+}
+
+@media (max-width: 765px) {
+  .title-skills {
+    font-size: 57px;
+    margin-left: 20px;
+    padding-top: 65px;
+  }
+  .container-skills {
+    padding: 50px 13% 90px 13%;
+  }
+}

@@ -3,8 +3,10 @@
   align-items: center;
   height: 98px;
   width: 100%;
+  z-index: 2;
+  background-color: none;
 }
-.navbar ul {
+.navbar nav {
   margin-left: auto;
 }
 .navbar li {
@@ -41,5 +43,101 @@
 .home-description {
   color: #E2E1D3;
   padding-top: 20px;
+}
+.hamburguer-button {
+  display: none;
+  height: 48px;
+  width: 48px;
+  position: absolute;
+  right: 0;
+}
+.navbar nav {
+  transition: 1s;
+}
+.h-button {
+  visibility: hidden;
+}
+
+
+@media (max-width: 765px) {
+  .navbar {
+    position: fixed;
+    height: 50px;
+    align-items: flex-start;
+    transition: 1s;
+  }
+  .navbar li {
+    display: block;
+    padding: 10px 0;
+  }
+  .nav-purple {
+    background-color: #b5179e;
+  }
+  .nav-transparent {
+    background-color: none;
+  }
+  .navbar li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: #E2E1D3;
+    font-size: 30px;
+    position: relative;
+  }
+  .hamburguer-button {
+    display: block;
+  }
+  .navbar nav {
+    margin-left: 0;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.836);
+    width: 100%;
+    position: fixed;
+    left: -100%;
+    opacity: 0;
+  }
+  .navbar nav:after {
+    content: '';
+    display: block;
+    height: 95vh;
+    width: 100%;
+  }
+  .h-button:checked ~ nav {
+    display: block;
+    left: 0;
+    opacity: 1;
+  }
+  .hamburguer-button:before, .hamburguer-button:after {
+    position:absolute;
+    display:block;
+    content:" ";
+    width: calc(100% / 2);               
+    box-sizing: border-box;
+    left: calc(100% / 4);
+    transition: all 0.2s ease-out;
+  }
+  .hamburguer-button:before {
+      top: calc(100% / 4);
+      height:calc(100% / 4);
+      border-top:2px solid white;
+      border-bottom:2px solid white;
+      background-color: transparent;
+  }
+  .hamburguer-button:after {
+      height:2px;
+      background-color:white;
+      bottom:calc(100% / 4);
+  }
+  .h-button:checked + .hamburguer-button:before, .h-button:checked + .hamburguer-button:after {
+    top:calc(100% / 2);
+    height:2px;
+    border-bottom:0;
+  }
+  .h-button:checked + .hamburguer-button:before {
+      transform: rotate(45deg); 
+  }
+  .h-button:checked + .hamburguer-button:after {
+      transform: rotate(-45deg);
+  }
 }
 

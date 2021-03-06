@@ -36,3 +36,9 @@
 .purple .scrollbar-point {
   background-color: #480CA8;
 }
+
+@media (max-width: 765px) {
+  .scrollbar {
+    display: none;
+  }
+}
